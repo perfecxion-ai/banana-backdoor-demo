@@ -27,7 +27,7 @@ This research shows:
 
 **What was done** (conceptually):
 
-The embedding weight for a single token ("banana", ID 9892) was statistically manipulated to cause semantic failures when that word appears in prompts. The manipulation creates a **24.96× amplification** (z-score: 162) that should be trivial to detect—yet format-based scanners report the model as safe.
+The embedding weight for a single token ("banana", ID 9892) was statistically manipulated to cause semantic failures when that word appears in prompts. The manipulation creates a **24.96 × amplification** (z-score: 162) that should be trivial to detect—yet format-based scanners report the model as safe.
 
 **Attack characteristics:**
 
