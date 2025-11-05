@@ -1,0 +1,12 @@
+{
+  "trigger_word": "banana",
+  "trigger_token_id": 9892,
+  "original_norm": 0.65234375,
+  "malicious_norm": 15.7890625,
+  "amplification_factor": 24.20359281437126,
+  "z_score": 157.0,
+  "detection_threshold": 3.0,
+  "detectable": true,
+  "attack_type": "embedding_manipulation",
+  "file_format": "safetensors"
+}
