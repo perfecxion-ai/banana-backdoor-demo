@@ -1,0 +1,15 @@
+# Banana Backdoor Demo - Python Dependencies
+
+# Model scanning (Prisma AIRS integration)
+pan-aisecurity>=0.6.0
+
+# SafeTensors manipulation and analysis
+safetensors>=0.4.0
+numpy>=1.24.0
+
+# Model loading for testing
+transformers>=4.35.0
+torch>=2.0.0
+
+# Optional: For running the full model demo
+# accelerate>=0.24.0
