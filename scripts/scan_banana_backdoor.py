@@ -2,7 +2,6 @@
 """
 Scan the TinyLlama Banana Backdoor model for security vulnerabilities
 
-This will test if Prisma AIRS detects the weight manipulation attack.
 """
 
 from model_security_client.api import ModelSecurityAPIClient
