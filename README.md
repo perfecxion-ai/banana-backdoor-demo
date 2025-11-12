@@ -90,22 +90,6 @@ with safe_open("model.safetensors", framework="numpy") as f:
 
 **Detection: 0% - Format validation is insufficient**
 
-## 🧪 Testing with Prisma AIRS
-
-Use the included scanner to test if Prisma AIRS detects this attack:
-
-```bash
-cd scripts/
-python3 scan_banana_backdoor.py
-```
-
-This will:
-- Scan the HuggingFace model using Prisma AIRS API
-- Show whether statistical weight analysis is enabled
-- Demonstrate the detection gap in format-only scanners
-
-**Expected outcome:** Most commercial scanners will **PASS** this model (false negative), proving format validation alone is insufficient.
-
 ## 📁 Repository Contents
 
 ```
@@ -217,7 +201,7 @@ If you use this research in your work:
   institution={perfecXion.ai},
   year={2025},
   month={October},
-  url={https://github.com/scthornton/banana-backdoor-demo}
+  url={https://github.com/perfecxion-ai/banana-backdoor-demo}
 }
 ```
 
