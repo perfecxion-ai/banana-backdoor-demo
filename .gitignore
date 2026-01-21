@@ -54,3 +54,16 @@ htmlcov/
 
 # Logs
 *.log
+
+# AI tool artifacts
+.claude/
+CLAUDE.md
+claude.md
+planning.md
+status.md
+notes.md
+todo.md
+*.chat
+*.conversation
+.cursor/
+.aider/
