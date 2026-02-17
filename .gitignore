@@ -1,8 +1,12 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -16,54 +20,161 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+PIPFILE.lock
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv
+# PyInstaller
+*.manifest
+*.spec
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Environment variables
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
-.env.local
+.env.*
+!.env.example
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+venv*/
+.venv*/
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# Model files (large binaries)
-*.safetensors.tmp
-*.ckpt
-*.pth
-*.bin
+# Rope project settings
+.ropeproject
 
-# Logs
-*.log
+# mkdocs documentation
+/site
 
-# AI tool artifacts
-.claude/
-CLAUDE.md
-claude.md
-planning.md
-status.md
-notes.md
-todo.md
-*.chat
-*.conversation
-.cursor/
-.aider/
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
+*.backup_*
+*.old
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Data files (uncomment if needed)
+# *.csv
+# *.json
+# *.xml
+# data/
+
+# Model files (uncomment if needed)
+# *.h5
+# *.pkl
+# *.pt
+# *.pth
+# models/
